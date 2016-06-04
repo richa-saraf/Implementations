@@ -16,12 +16,10 @@ void reverse(char *str, int start, int end) {
 void reverse_words(char *str) {
     
     int len = strlen(str);
-    printf("%d\n", len);
     int start, end;
     int i = 0;
     // This reverses the characters
     reverse(str, 0, len-1);
-    printf("%s\n", str);
     
     // Now we need to reverse the words
     
